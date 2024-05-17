@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Електронний підпис форми</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Електронний підпис форми</h1>
+
+<form id="myForm">
+    <label for="name">Надрукуйте ім'я:</label>
+    <input type="text" id="name" name="name" value=""><br>
+
+    <label for="email">Надрукуйте email:</label>
+    <input type="email" id="email" name="email" value=""><br>
+
+    <label for="number">Надрукуйте дійсне число:</label>
+    <input type="number" id="number" name="number" value=""><br>
+
+    <div class="buttons">
+        <button type="submit" class="button">Відправити</button>
+    </div>
+</form>
+
+<div id="signature"></div>
+
+<script src="task2.js"></script>
+
+<div class="footer">
+    <a href="index.html" class="button">Назад</a>
+</div>
+</body>
+</html>
